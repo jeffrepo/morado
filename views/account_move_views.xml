@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="morado_view_account_move_form" model="ir.ui.view">
+            <field name="name">morado.account.move.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <page name="other_info" position="after">
+                    <page name="morado_descuentos" string="Morado descuentos">
+                        <group>
+                            <group>
+                                <field name="dsc1"/>
+                                <field name="dsc2"/>
+                                <field name="dsc3"/>
+                                <field name="dsc4"/>
+                                <field name="dsc5"/>
+                            </group>
+                            <group>
+                                <field name="dsc6"/>
+                                <field name="dsc7"/>
+                                <field name="dsc8"/>
+                                <field name="dsc9"/>
+                                <field name="dsc10"/>
+                            </group>
+                        </group>
+                    </page>
+                </page>
+            </field>
+        </record>
+
+    </data>
+</odoo>
