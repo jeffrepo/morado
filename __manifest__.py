@@ -18,6 +18,7 @@
 
     'data': [
         'views/account_move_views.xml',
+        'views/electronic_invoice.xml',
     ],
     'assets':{
     },
